@@ -1,19 +1,44 @@
-// Bringing in the required import from 'react-router-dom'
-import { Link } from 'react-router-dom';
-import Navbar from './UI/Navbar';
+import { Link, useLocation } from 'react-router-dom';
 
-export default function Nav() {
-  // The Navbar UI component will render each of the Link elements in the links prop
+function Navigation() {
+  const currentPage = useLocation().pathname;
+
   return (
-    <Navbar
-      links={[
-        <Link key={1} className="nav-link text-light" to="/">
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <Link
+          to="/"
+          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+        >
           Home
-        </Link>,
-        <Link key={2} className="nav-link text-light" to="/about">
-          About Us
-        </Link>,
-      ]}
-    />
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/Portfolio"
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/Contact"
+          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/Resume"
+          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </Link>
+      </li>
+    </ul>
   );
 }
+
+export default Navigation;
