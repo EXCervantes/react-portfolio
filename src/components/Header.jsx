@@ -1,8 +1,14 @@
+import Navigation from "./Navigation";
+
 const Header = () => {
     return (
-      <header className="header" style={styles.headerStyle}>
-        <h1>Welcome</h1>
-      </header>
+      <div>
+        <header>
+          <div>
+        <Navigation />
+          </div>
+        </header>
+      </div>
     );
   }
   

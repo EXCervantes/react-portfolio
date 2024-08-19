@@ -15,10 +15,10 @@ const  Navigation = () => {
       </li>
       <li className="nav-item">
         <Link
-          to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+          to="/Projects"
+          className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          Projects
         </Link>
       </li>
       <li className="nav-item">

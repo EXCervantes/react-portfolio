@@ -9,15 +9,13 @@ const styles = {
 
 const AboutMe = () => {
     return (
+      <>
       <div className="container pt-4">
+				<div className="jumbotron jumbotron-fluid mb-0">
+						<h1 className="display-4 pb-0 pb-sm-0 pb-md-0 mb-2 text-center">About Me</h1>
+				</div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
+          My 
         </p>
         <section className="features-icons bg-light text-center m-4">
           <div className="container">
@@ -69,7 +67,7 @@ const AboutMe = () => {
           nostrum temporibus ad omnis nam rerum eligendi.
         </p>
       </div>
-    );
-  }
+    </>
+    )}
 
   export default AboutMe;

@@ -1,17 +1,12 @@
 import './App.css'
-import Navbar from './components/Navigation';
+import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 
 const App = () => {
   return (
-    <div>
-    <nav>
-      <Navbar/>
-    </nav>
-      <div className="portfolio-page">
-        <Portfolio/>
-    </div>
-    </div>
+    <main className='overflow-x-hidden bg-black tracking-tighter text-gray-200 antialiased'>
+<Navbar />
+    </main>
   );
 }
 
