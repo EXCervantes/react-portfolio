@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
-function Navigation() {
+const  Navigation = () => {
   const currentPage = useLocation().pathname;
 
   return (

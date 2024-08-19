@@ -1,4 +1,13 @@
-export default function AboutPage() {
+const styles = {
+  headerStyle: {
+    background: "#ff6262",
+  },
+  headingStyle: {
+    fontSize: "100px",
+  }
+}
+
+const AboutMe = () => {
     return (
       <div className="container pt-4">
         <p>
@@ -62,3 +71,5 @@ export default function AboutPage() {
       </div>
     );
   }
+
+  export default AboutMe;

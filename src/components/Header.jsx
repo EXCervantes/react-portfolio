@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
     return (
       <header className="header" style={styles.headerStyle}>
         <h1>Welcome</h1>
