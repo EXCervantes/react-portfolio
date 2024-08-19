@@ -10,7 +10,7 @@ const  Navigation = () => {
           to="/"
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About Me
         </Link>
       </li>
       <li className="nav-item">

@@ -1,10 +1,16 @@
 import './App.css'
+import Navbar from './components/Navigation';
 import Portfolio from './components/Portfolio';
 
-function App() {
+const App = () => {
   return (
+    <div>
+    <nav>
+      <Navbar/>
+    </nav>
       <div className="portfolio-page">
         <Portfolio/>
+    </div>
     </div>
   );
 }
