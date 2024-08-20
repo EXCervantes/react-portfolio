@@ -27,15 +27,15 @@ const Header = () => {
     return (
         <div>
             {/* Reactive menu for different screens */}
-            <nav className="=fixed left-0 right-0 top-4 z-50">
+            <nav className="fixed left-0 right-0 top-4 z-50">
             {/* Menu For Desktop Displays */}
             <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
                 <div className="flex justify-between gap-6">
                     <div>
-                        <ul className="flex items-center gap-4">
+                        <ul className="flex items-center gap-6">
                             {NavLinks.map((item, index) => (
                                 <li key={index}>
-                                    <a className="text-sm hover:text-yellow-400"
+                                    <a className="text-large font-medium hover:text-yellow-400"
                                     href={item.href}
                                     onClick={(e) => handleLinkClick(e, item.href)}>
                                         {item.label}

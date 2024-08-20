@@ -2,6 +2,9 @@ import Profile from './components/Profile';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -10,6 +13,9 @@ const App = () => {
       <Profile />
       <AboutMe />
       <Portfolio />
+      <Contact />
+      <Resume />
+      <Footer />
     </main>
   )
 }
