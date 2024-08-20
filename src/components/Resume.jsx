@@ -4,7 +4,7 @@ import { frontEndSkills, backEndSkills} from "../assets/data/resumeDetails"
 
 const Resume = () => {
 return (
-    <div className="container mx-auto" id="resume">
+    <div className="container mx-auto mb-20" id="resume">
         <h2 className="mb-12 mt-20 text-center text-4xl">Download Resume
         </h2>
         <button>
