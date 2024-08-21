@@ -30,7 +30,7 @@ export const projects = [
     {
         image: image4,
         title: 'Task Attacker!',
-        description: 'This is a little bot for the Telegram app to fetch the URLs for GIFs and videos found on the X/Twitter platform. Then it sends them to the user as a link where a user can choose to view it or download if they desire.',
+        description: 'A group project created to be a daily life planner which stores tasks and assigns a time to them.',
         deployedUrl: 'https://taskattacker.onrender.com/',
         githubUrl: 'https://github.com/NoahCalderwood/TaskAttacker'
     },
