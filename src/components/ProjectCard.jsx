@@ -2,7 +2,7 @@ import { Button } from "flowbite-react";
 
 const ProjectCard = ({image, title, description, deployedUrl, githubUrl}) => {
 return (
-    <div>
+    <div className="p-4">
     <a href={deployedUrl} className="m-4 block max-w-sm overflow-hidden rounded-lg hover:shadow-md hover:opacity-80">
         <div className="relative">
             <img className="w-full" src={image} alt={title} />
@@ -13,7 +13,7 @@ return (
         </div>
         </a>
             <div className="flex justify-center">
-                <Button size="xs" color="light" pill>
+                <Button size="xs" color="gray" pill>
                     <a href={githubUrl} className="m-2 text-base">GitHub</a>
                 </Button>
             </div>

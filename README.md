@@ -33,7 +33,7 @@ Building this site taught me many new things about building with React.js especi
 
 This is a full functioning application deployed at [this link](https://edwardo-cervantes-portfolio.netlify.app/).
 
-Alternatively, a user can clone the repository to view it on their local machine. Run `npm install` to install the necessary dependencies for the page to work. Initailize the application by using `npm run start`.
+Alternatively, a user can clone the repository to view it on their local machine. Run `npm install` to install the necessary dependencies for the page to work. Initialize the application by using `npm run start`.
 
 ## Usage
 
@@ -45,10 +45,9 @@ Follow [this link](https://edwardo-cervantes-portfolio.netlify.app/) to visit th
 
 ### Screenshots of the Application
 
-![App In Browser](images/jate-pwa-screen1.jpg)
-![App Running Locally](images/jate-pwa-screen2.jpg)
-![Service Worker](images/jate-pwa-screen3.jpg)
-![Manifest File](images/jate-pwa-screen4.jpg)
+![About Me](public/images/reactportfolio1.jpg)
+![Portfolio](public/images/reactportfolio2.jpg)
+![Contact](public/images/reactportfolio3.jpg)
 
 ## Credits
 
