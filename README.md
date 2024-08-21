@@ -17,7 +17,7 @@
 
 Here is an updated Portfolio using all that I have learned these past few months. This is built using React and its corresponding packages, Vite, Tailwind CSS, and Flowbite React. Due to using a virtual DOM this webpage acts like a true single page application as seen by how the user can interact with it. This project is deployed to [Netlify](https://www.netlify.com/) as a webpage which can be used in the browser.
 
-Building this site taught me many new things about building with React.js especially the ease of using it once I became familiar with the syntax. There has been some huge improvements over my [previous](https://github.com/EXCervantes/portfolio-page) Portfolio page. Future development will include creating a full functioning form page which will interact with an API such as Email.js to notify of a response.
+Building this site taught me many new things about building with React.js especially the ease of using it once I became familiar with the syntax. There has been some huge improvements over my [previous](https://github.com/EXCervantes/portfolio-page) Portfolio page. Future development will include creating a full functioning form page which will interact with an API such as Email.js to notify of a response. Along with that a toggle theme button to switch the page to a light mode theme.
 
 ## Technologies and Packages Used
 
@@ -59,6 +59,10 @@ Referenced for how to create a page with a Hero element and responsive one page 
 Referenced on how to edit the React Icons to suit the page
 
 _reactjs - How to Style React-Icons - Stack Overflow_. (2019, June 17). Stack Overflow. Retrieved August 17, 2024, from https://stackoverflow.com/questions/56636280/how-to-style-react-icons
+
+Referenced on how to edit the auto fill form colors in Chrome
+
+_Removing input background colour for Chrome autocomplete? - Stack Overflow_. (2015, March 30). Stack Overflow. Retrieved August 17, 2024, from https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete
   
 ## License
 

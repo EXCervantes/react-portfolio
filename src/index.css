@@ -7,3 +7,25 @@
 :root {
   font-family: "Hind", sans-serif;
 }
+
+input {
+  color: #D3D3D3;
+  background: transparent;
+}
+
+input::placeholder{
+  opacity: 1;
+  color: #9e9e9e;
+}
+
+@-webkit-keyframes autofill {
+  to {
+    color: silver;
+    background: transparent;
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
