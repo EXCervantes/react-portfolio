@@ -16,28 +16,28 @@ export const projects = [
     {
         image: image2,
         title: 'Weather Dashboard',
-        description: 'This is an application which uses the Open Weather Map API to fetch a daily and five day forecast.',
+        description: 'This is an application which uses the Open Weather Map API to fetch a daily and five day forecast. It can search for a city and display its forecasts.',
         deployedUrl: 'https://tech-blog-6dqv.onrender.com/',
         githubUrl: 'https://github.com/EXCervantes/weather-dashboard'
     },
     {
         image: image3,
         title: 'Cinema Quiz',
-        description: 'This is a cinema quiz taking application with a built in help function to search movies for hints. It uses two APIs to, one to generate quiz questions and the other to search a movie database.',
+        description: 'This is a cinema quiz taking application with a built in help function to search movies for hints.',
         deployedUrl: 'https://excervantes.github.io/cinema-quiz/',
         githubUrl: 'https://github.com/EXCervantes/cinema-quiz'
     },
     {
         image: image4,
         title: 'Task Attacker!',
-        description: 'A group project created to be a daily life planner which stores tasks and assigns a time to them.',
+        description: 'A daily life planner which stores tasks and assigns a time to them. Users can create an account or sign in to see their stored tasks and create new ones.',
         deployedUrl: 'https://taskattacker.onrender.com/',
         githubUrl: 'https://github.com/NoahCalderwood/TaskAttacker'
     },
     {
         image: image5,
         title: 'J.A.T.E',
-        description: 'Takes in text input and stores it either in local storage or IndexDB. This is a PWA complete with a page manifest and service workers. It can be used offline.',
+        description: 'Takes in text input and stores it either in local storage or IndexDB. This is a PWA complete with a page manifest and service workers. It can be used offline and installed locally.',
         deployedUrl: 'https://pwa-jate-zgyl.onrender.com/',
         githubUrl: 'https://github.com/EXCervantes/pwa-jate'
     },
