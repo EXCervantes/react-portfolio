@@ -9,21 +9,21 @@ export const projects = [
     {
         image: image1,
         title: 'Tech Blog',
-        description: 'This is a little bot for the Telegram app to fetch the URLs for GIFs and videos found on the X/Twitter platform. Then it sends them to the user as a link where a user can choose to view it or download if they desire.',
+        description: 'This is a CMS-style tech blog in the fashion of a Wordpress site. This is a full stack application utilizing Sequelize as the ORM and follows the MVC paradigm.',
         deployedUrl: 'https://tech-blog-6dqv.onrender.com/',
         githubUrl: 'https://github.com/EXCervantes/tech-blog'
     },
     {
         image: image2,
         title: 'Weather Dashboard',
-        description: 'This is a little bot for the Telegram app to fetch the URLs for GIFs and videos found on the X/Twitter platform. Then it sends them to the user as a link where a user can choose to view it or download if they desire.',
+        description: 'This is an application which uses the Open Weather Map API to fetch a daily and five day forecast.',
         deployedUrl: 'https://tech-blog-6dqv.onrender.com/',
         githubUrl: 'https://github.com/EXCervantes/weather-dashboard'
     },
     {
         image: image3,
         title: 'Cinema Quiz',
-        description: 'This is a little bot for the Telegram app to fetch the URLs for GIFs and videos found on the X/Twitter platform. Then it sends them to the user as a link where a user can choose to view it or download if they desire.',
+        description: 'This is a cinema quiz taking application with a built in help function to search movies for hints. It uses two APIs to, one to generate quiz questions and the other to search a movie database.',
         deployedUrl: 'https://excervantes.github.io/cinema-quiz/',
         githubUrl: 'https://github.com/EXCervantes/cinema-quiz'
     },
