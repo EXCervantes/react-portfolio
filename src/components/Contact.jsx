@@ -34,8 +34,8 @@ const Contact = () => {
 			return;
 		}
 
-		if (!message) {
-			setError('Message is required!');
+		if (!message || message.length < 150) {
+			setError('Please enter a message of at least 150 characters.');
 			return;
 		}
         return true;
