@@ -33,12 +33,12 @@ const Header = () => {
                 <div className="flex justify-between gap-6">
                     <div>
                         <ul className="flex items-center gap-6">
-                            {NavLinks.map((item, index) => (
+                            {NavLinks.map((tab, index) => (
                                 <li key={index}>
-                                    <a className="text-large font-medium hover:text-yellow-400"
-                                    href={item.href}
-                                    onClick={(e) => handleLinkClick(e, item.href)}>
-                                        {item.label}
+                                    <a className="text-2xl font-medium drop-shadow-glow hover:text-yellow-200"
+                                    href={tab.href}
+                                    onClick={(e) => handleLinkClick(e, tab.href)}>
+                                        {tab.label}
                                         </a>
                                 </li>
                             ))}
@@ -62,11 +62,11 @@ const Header = () => {
                 </div>
                 {isMobileMenuOpen && (
                     <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop:blur-md">
-                        {NavLinks.map((item, index) => (
+                        {NavLinks.map((tab, index) => (
                             <li key={index}>
-                                <a className="block w-full text-xl font-semibold" href={item.href}
-                                onClick={(e) => handleLinkClick(e, item.href)}>
-                                    {item.label}
+                                <a className="block w-full text-xl font-semibold" href={tab.href}
+                                onClick={(e) => handleLinkClick(e, tab.href)}>
+                                    {tab.label}
                                 </a>
                             </li>
                         ))}

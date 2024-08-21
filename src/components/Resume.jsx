@@ -4,7 +4,7 @@ import resumePDF from "../assets/docs/Edwardo-Cervantes-Resume.pdf"
 const Resume = () => {
 return (
     <div className="container mx-auto mb-20" id="resume">
-        <h2 className="mb-12 mt-20 text-center text-4xl">Resume
+        <h2 className="mb-12 mt-20 text-center text-6xl font-semibold">Resume
         </h2>
         <div className="flex flex-wrap justify-center gap-2">
         <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" >

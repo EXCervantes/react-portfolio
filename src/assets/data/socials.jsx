@@ -13,7 +13,7 @@ export const socials = [
     },
     {
       site: "Facebook",
-      url: "#",
+      url: "https://www.facebook.com/profile.php?id=100000132221280",
       icon: <FaFacebook fontSize={25} className="hover:opacity-80" />
     },
 ]

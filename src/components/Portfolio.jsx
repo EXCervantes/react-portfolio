@@ -4,7 +4,7 @@ import Card from '../components/ProjectCard'
 const Portfolio = () => {
     return (
         <div id="portfolio">
-            <h2 className="mt-20 text-center text-4xl font-semibold">
+            <h2 className="mt-20 text-center text-6xl font-semibold">
                 Projects
         </h2>
             <div className="flex flex-wrap justify-center py-8">

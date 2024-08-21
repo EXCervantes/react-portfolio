@@ -1,10 +1,10 @@
 const AboutMe = () =>{
     return (
 <div className="container mx-auto" id="about">
-    <h2 className="mt-20 text-center text-4xl font-semibold">
+    <h2 className="mt-20 text-center text-6xl font-semibold">
         About Me
     </h2>
-    <h3 className="p-4 text-6xl uppercase lg:text-[8rem]">
+    <h3 className="text-center p-4 pt-10 pb-10 text-4xl uppercase lg:text-[4rem]">
         Multi talented with a creative mind
     </h3>
         <p className="mr-24 pl-4 text-lg leading-loose">

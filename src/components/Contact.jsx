@@ -20,12 +20,12 @@ const Contact = () => {
 		} else {
 			setMessage(inputValue);
 		}
+        setError('');
 	};
 
-	const handleFormSubmit = (e) => {
-		e.preventDefault();
-
-		if (!name) {
+    const validateInputs = () => {
+        console.log("hello")
+        if (!name) {
 			setError('A valid name is required.');
 			return;
 		}
@@ -38,8 +38,19 @@ const Contact = () => {
 			setError('Message is required!');
 			return;
 		}
+        return true;
+    }
+
+	const handleFormSubmit = (e) => {
+		e.preventDefault();
+
+        if(!validateInputs()) {
+            return
+        }
+
 		const msg = 'Thank you, ' + name + '! I will get back to you as soon as possible!';
 		setSuccessMessage(msg);
+        setError('');
 
 		setName('');
 		setEmail('');
@@ -48,19 +59,42 @@ const Contact = () => {
 
     return (
         <div className="mx-auto max-x-3xl p-4" id="contact">
-            <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
+            <h2 className="my-8 mt-20 text-center text-6xl font-semibold tracking-tighter">
                 Contact Me!
             </h2>
             <form onSubmit={handleFormSubmit}>
-                <div className="mb-4">
+                <div className="flex flex-col justify-center items-center mb-4 min-h-screen">
+                    <div className="col-md-6">
                     <input type="text"
                         id="name"
                         name="name"
-                        value={FormData.name}
+                        value={name}
                         placeholder="Your Name"
                         onChange={handleInputChange}
-                        className="mb-8 w-full appearance-none rounded-none border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline-none" />
+                        onBlur={validateInputs}
+                        className="mb-8 w-2/3 shadow-glow appearance-none rounded-none border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline-none" 
+                    />
+                    </div>
+                    <input type="text"
+                        id="email"
+                        name="email"
+                        value={email}
+                        placeholder="Email"
+                        onChange={handleInputChange}
+                        onBlur={validateInputs}
+                        className="mb-8 w-full appearance-none rounded-none border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline-none" 
+                    />
+                    <input type="text"
+                        id="message"
+                        name="message"
+                        value={message}
+                        placeholder="Type Message Here"
+                        onChange={handleInputChange}
+                        onBlur={validateInputs}
+                        className="mb-8 w-full appearance-none rounded-none border border-gray-900 bg-transparent px-3 py-2 text-sm focus:border-gray-400 focus:outline-none"
+                    />
                 </div>
+                <div><p>{error || successMessage}</p></div>
             </form>
         </div>
     )
