@@ -90,7 +90,10 @@ const Contact = () => {
                         onBlur={validateInputs}
                         className="mb-8 w-1/2  appearance-none rounded-none border border-gray-900 bg-transparent px-3 py-2 text-base focus:border-gray-400 focus:outline-none"
                     />
-<div><p>{error || successMessage}</p></div>
+                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" type="submit" >
+                    Submit
+                    </button>
+                    <div><p>{error || successMessage}</p></div>
                 </div>
             </form>
         </div>
