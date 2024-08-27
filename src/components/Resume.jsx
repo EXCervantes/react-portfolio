@@ -7,14 +7,14 @@ return (
         <h2 className="mb-12 mt-20 text-center text-6xl font-semibold">Resume
         </h2>
         <div className="flex flex-wrap justify-center gap-2">
-        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" >
+        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 dark:bg-gray-300 dark:hover:bg-gray-400 dark:text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" >
         <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
         <a  href={resumePDF} download><span>Download Resume</span></a>
         </button>
         </div>
         <h2 className="mb-12 mt-20 text-center text-4xl">Front End Proficiencies
         </h2>
-        <div className="mx-2 flex flex-col rounded-xl bg-gradient-to-b from-zinc-900 to-zinc-950 px-4 py-10 lg:px-20">
+        <div className="mx-2 flex flex-col rounded-xl bg-gradient-to-b text-black dark:text-white from-sky-200 to-sky-100 dark:from-zinc-900 dark:to-zinc-950 px-4 py-10 lg:px-20">
             {frontEndSkills.map((frontend, index) => (
                 <div key={index} className="mb-8 flex items-center justify-between">
                     <div className="flex items-center">
@@ -30,7 +30,7 @@ return (
         </div>
         <h2 className="mb-12 mt-20 text-center text-4xl">Back End Proficiencies
         </h2>
-        <div className="mx-2 flex flex-col rounded-xl bg-gradient-to-b from-zinc-900 to-zinc-950 px-4 py-10 lg:px-20">
+        <div className="mx-2 flex flex-col rounded-xl bg-gradient-to-b  text-black dark:text-white from-sky-200 to-sky-100 dark:from-zinc-900 dark:to-zinc-950 px-4 py-10 lg:px-20">
             {backEndSkills.map((backend, index) => (
                 <div key={index} className="mb-8 flex items-center justify-between">
                     <div className="flex items-center">

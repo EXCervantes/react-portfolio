@@ -7,6 +7,7 @@ export default {
         "./src/**/*.{jsx,js,ts,tsx}",
         flowbite.content(),
     ],
+    darkMode: "class",
     theme: {
         extend: {
             dropShadow: {

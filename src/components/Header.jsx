@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLinks } from "../components/Navigation";
 import {FaTimes, FaBars} from 'react-icons/fa';
 
+
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -29,13 +30,13 @@ const Header = () => {
             {/* Reactive menu for different screens */}
             <nav className="fixed left-0 right-0 top-4 z-50">
             {/* Menu For Desktop Displays */}
-            <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
+            <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg dark:bg-black/20 bg-white/15 py-3 backdrop-blur-lg lg:flex">
                 <div className="flex justify-between gap-6">
                     <div>
                         <ul className="flex items-center gap-6">
                             {NavLinks.map((tab, index) => (
                                 <li key={index}>
-                                    <a className="text-2xl font-medium drop-shadow-glow hover:text-yellow-200"
+                                    <a className="text-2xl font-medium hover:opacity-80 drop-shadow-lg text-black  dark:text-slate-100 dark:drop-shadow-glow dark:hover:text-yellow-200"
                                     href={tab.href}
                                     onClick={(e) => handleLinkClick(e, tab.href)}>
                                         {tab.label}

@@ -8,6 +8,24 @@
   font-family: "Hind", sans-serif;
 }
 
+#hero-name {
+  color: rgba(255, 255, 255, 0.927);
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+#hero-text {
+  color: rgba(255, 255, 255, 0.927);
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
 input {
   color: #D3D3D3;
   background: transparent;
